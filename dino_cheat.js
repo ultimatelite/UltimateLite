@@ -2,8 +2,6 @@
 Some cheat-script I made for Dino Game
 */
 
-if(typeof Runner == "undefined")throw new CustomException({n: "InvalidScriptExecution", m: "This script only works on dino game, you have no dino game instance running."})
-
 class CustomException extends Error{
 	constructor(mbt){
 		if(!mbt)throw new Error("Expected object, got " + typeof mbt)
@@ -13,6 +11,8 @@ class CustomException extends Error{
 		this.message = mbt.m
 	}
 }
+if(typeof Runner == "undefined")throw new CustomException({n: "InvalidScriptExecution", m: "This script only works on dino game, you have no dino game instance running."})
+
 const SAVE_STATE_GAMEOVER = Runner.instance_.gameOver
 
 const ERR_CODE = {
