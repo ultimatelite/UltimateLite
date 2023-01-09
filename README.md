@@ -1,6 +1,6 @@
 - 👋 Hi, I’m @ultimatelite
 - 👀 I’m interested in web development and game development
-- 🌱 I’m currently learning ruby
+- 🌱 I’m currently learning Go
 - 💞️ I’m looking to collaborate on ...
 - 📫 How to reach me, directly chat on discord
 
